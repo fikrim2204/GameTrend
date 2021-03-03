@@ -1,6 +1,7 @@
 package rpl1pnp.fikri.gametrend.view.activity
 
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.squareup.picasso.Picasso
 import rpl1pnp.fikri.gametrend.R
@@ -15,9 +16,9 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        backButton()
         setSupportActionBar(binding.toolbarDetail)
         supportActionBar?.title = getText(R.string.detail_game)
+        backButton()
 
         games = intent.getParcelableExtra("extra_item")
 
@@ -42,5 +43,12 @@ class DetailActivity : AppCompatActivity() {
         binding.tvItemPlayerDetail.text = player
         binding.tvItemDescription.text = games?.info
         binding.tvItemReleaseDetail.text = year
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

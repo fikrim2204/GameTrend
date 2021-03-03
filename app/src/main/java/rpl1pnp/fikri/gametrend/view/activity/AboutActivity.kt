@@ -26,7 +26,7 @@ class AboutActivity : AppCompatActivity() {
     }
 
     private fun initProfile() {
-        Picasso.get().load(R.drawable.img7010_croped).into(binding.imgProfilePhoto)
+        Picasso.get().load(R.drawable.profile).into(binding.imgProfilePhoto)
         binding.tvProfileName.text = getText(R.string.profile_name)
         binding.tvProfileEmail.text = getText(R.string.profile_email)
     }
