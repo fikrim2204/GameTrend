@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">GameTrend</string>
+    <string name="desc_iv_game">Game image</string>
+
+    <string-array name="game_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="game_name">
+        <item>PlayerUnknown\'s Battlegrounds (PUBG)</item>
+        <item>Fortnite Battle Royale</item>
+        <item>Apex Legends</item>
+        <item>League of Legends (LOL)</item>
+        <item>Counter-Strike: Global Offensive</item>
+        <item>HearthStone</item>
+        <item>Minecraft</item>
+        <item>DOTA 2</item>
+        <item>The Division 2</item>
+        <item>The Splatoon 2</item>
+    </string-array>
+
+    <string-array name="game_image">
+        <item>@drawable/pubg</item>
+        <item>@drawable/fortnite</item>
+        <item>@drawable/apex</item>
+        <item>@drawable/lol</item>
+        <item>@drawable/cs_go</item>
+        <item>@drawable/hearthstone_feature</item>
+        <item>@drawable/minecraft</item>
+        <item>@drawable/dota_2</item>
+        <item>@drawable/the_division_2</item>
+        <item>@drawable/splatoon_2_switch_hero</item>
+    </string-array>
+
+    <string-array name="game_platform">
+        <item>XBOX, iOS, PC, Android.</item>
+        <item>XBOX, iOS, PC, Android.</item>
+        <item>Microsoft Windows, PlayStation 4, and XBOX.</item>
+        <item>XBOX, iOS, PC, Android.</item>
+        <item>XBOX 360, OS X, Microsoft Windows, Play station 3, and Linux</item>
+        <item>XBOX, iOS, PC, Android.</item>
+        <item>Microsoft Windows, Mac OS, and Linux.</item>
+        <item>Microsoft Windows, Mac OS, and Linux.</item>
+        <item>Microsoft Windows, PlayStation 4, Xbox One.</item>
+        <item>Wii U</item>
+    </string-array>
+
+    <string-array name="game_info">
+        <item>This is the <b>Most Popular Online Games</b> of 2020 until now. This game has taken the internet with fire and with day passing it has many players as they expected. PUBG is actually based upon armor and H1Z1. This game can indulge up to 99 players at a time.
+            This game is much popular due to the graphics and real situation where a map and a mission is assigned with more enemies hiding in the bushes. The players win the game if they survive the situation and kill all the hidden enemies.</item>
+        <item>This game has been on the player\'s list since 2017 but has taken the rage in 2018. And with that, it\'s still leading in numbers and dramatic effects but the popularity is not that much into account as they have been just into boy\'s zone, while PUBG has taken on both the genders.
+        This game has more features, equipment, and game-stages with a much greater no of players but the popularity takes on to the account.</item>
+        <item>This game has been in the news since its release, persons who are not players in PUBG and Fortnite but like the battlefield games then this is the one game for them. The game has six players teams with three players in a squad left on the island to savage other resources and weapons to fight against other squads at the time.
+            The squad left with more team players are to be won. The map games and ping communication system of this game should be used from here on. This game now also earned its place among the best superhero-themed video games in 2020</item>
+        <item>It has been a long time for the gamers to play for this game but it is an evergreen game. The players have all control to picks their champions that can compete with other champions later on in this game. It has stunning mode and awesome graphics with much excitement on each level and every single game. It\'s a multiplayer action game with RPG.</item>
+        <item>Game is of terrorists and counter-terrorist attacks. Where players have to diffuse and plant the bombs, accomplish missions, secure locations, kills the terrorist, and guarding the hostages shown on the map. It\'s a multiplayer shooter game.
+        Killing enemies and accomplishing goals rewards with more cash and prizes. Overtime communities and strategies have been indulged in this game.</item>
+        <item>This game in contrast to the other games on the list. HearthStone was a small project of Blizzard Entertainment for experiment purpose but it got the hits and now been played on the recent occasion.
+            This game is of collecting cards deck from different houses and different powers. Each of the cards is used to lower the opponent\'s health and life to win the game.</item>
+        <item>This game has been popular with every coming game. This game has several modes and with that users have to survive and built its campus and have total authority to take upon animal buildings, people, and food.
+            It\'s a 3D sandbox game with no many restrictions and allowing users to do whatever they want to. Its several modes have Survival mode, adventure mode, creative mode, and spectator mode.</item>
+        <item>This game has been spending millions of dollars by the valve company for its multiplayer mode game. It is rewarded with the title of production quality, rewarding gameplay, and faithfulness to its predecessors.</item>
+        <item>Played from a third-person perspective, the game takes place in Washington D.C. seven months after its predecessor, in which a civil war between survivors and villainous bands of marauders breaks out. In the game, players can cooperate with each other to complete objectives.
+            The game will also feature raids, which can be completed by up to eight players. It received generally favorable reviews from critics, with most noting it as an improvement over the first installment.</item>
+        <item>Splatoon 2 is a third-person shooter in which players control anthropomorphic squid known as Inklings - and later Octolings, anthropomorphic octopuses - and use colored ink to attack opponents and clear goals.
+            Inklings and Octolings can morph between social form, during which they can fire ink with their weapons, and squid form (or in the case of Octolings, an octopus form) which allows them to swim through ink of their own color to move quickly and refill ink.</item>
+    </string-array>
+
+    <string-array name="game_online_player">
+        <item>More than 50 million online players</item>
+        <item>39 Million online players</item>
+        <item>50 Million players online in one month</item>
+        <item>27 Million online players</item>
+        <item>32 Million online players</item>
+        <item>29 Million online players</item>
+        <item>91 Million online players</item>
+        <item>5 Million players online</item>
+        <item>63,817 Consoles sold.</item>
+        <item>5 Million players online</item>
+    </string-array>
+
+    <string-array name="game_developer">
+        <item>PUBG Corporation</item>
+        <item>Epic Games</item>
+        <item>Respawn Entertainment</item>
+        <item>Riot games</item>
+        <item>Valve Corporation</item>
+        <item>Blizzard Entertainment</item>
+        <item>Mojang</item>
+        <item>Valve Corporation</item>
+        <item>Massive Entertainment</item>
+        <item>Nintendo</item>
+    </string-array>
+
+    <string-array name="game_release_year">
+        <item>2018</item>
+        <item>2017</item>
+        <item>2019</item>
+        <item>2009</item>
+        <item>2014</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2015</item>
+        <item>2019</item>
+        <item>2015</item>
+    </string-array>
+
+</resources>
