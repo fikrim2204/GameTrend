@@ -2,19 +2,16 @@ package rpl1pnp.fikri.gametrend.view.activity
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import rpl1pnp.fikri.gametrend.R
 import rpl1pnp.fikri.gametrend.adapter.MainAdapter
 import rpl1pnp.fikri.gametrend.databinding.ActivityMainBinding
 import rpl1pnp.fikri.gametrend.model.Game
-import rpl1pnp.fikri.gametrend.viewmodel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
     private lateinit var mainBinding: ActivityMainBinding
     private lateinit var adapter: MainAdapter
-    private val viewModel : MainViewModel by viewModels()
     private var games: MutableList<Game> = mutableListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {

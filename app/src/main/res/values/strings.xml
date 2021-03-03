@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">GameTrend</string>
     <string name="desc_iv_game">Game image</string>
+    <string name="lorem_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur urna sit amet turpis dignissim, non eleifend turpis ultricies. Suspendisse fringilla eu mi sed finibus. Nam pellentesque condimentum eros ac commodo. In luctus odio sit amet dolor iaculis, at ultricies justo euismod. Suspendisse risus purus, euismod sed massa id, laoreet bibendum dolor. Nam nec porta sapien, eu blandit nulla. Suspendisse aliquam ante nisi, sed maximus mauris pulvinar suscipit.  Mauris faucibus nibh dolor, ut convallis est sodales a. Cras in consequat libero. Ut aliquam tellus vel erat tempus, non faucibus enim malesuada. Cras id sapien lacinia, condimentum sapien in, rhoncus nibh. Ut placerat pharetra ullamcorper. Aliquam non turpis at quam iaculis faucibus. Donec porta, enim sit amet ullamcorper vulputate, est nulla vulputate purus, sed volutpat nisi purus vitae massa. In hac habitasse platea dictumst. Morbi mi tellus, convallis in enim eleifend, sollicitudin accumsan risus. Nulla facilisi. Nam vitae enim dictum, pulvinar dui sit amet, viverra lectus.</string>
 
     <string-array name="game_id">
         <item>1</item>
