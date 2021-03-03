@@ -35,10 +35,12 @@ class DetailActivity : AppCompatActivity() {
         val developer = "Developer : ${games?.developer}"
         val platform = "Platform : ${games?.platform}"
         val player = "Player : ${games?.player}"
+        val year = "Release Year : ${games?.release}"
         binding.tvItemNameDetail.text = name
         binding.tvItemDevDetail.text = developer
         binding.tvItemPlatformDetail.text = platform
         binding.tvItemPlayerDetail.text = player
         binding.tvItemDescription.text = games?.info
+        binding.tvItemReleaseDetail.text = year
     }
 }

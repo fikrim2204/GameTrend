@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         binding.rvMain.adapter = adapter
     }
 
-    fun initGame(){
+    private fun initGame(){
         val id = resources.getStringArray(R.array.game_id)
         val photo = resources.obtainTypedArray(R.array.game_image)
         val name = resources.getStringArray(R.array.game_name)
@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         val platform = resources.getStringArray(R.array.game_platform)
         val info = resources.getStringArray(R.array.game_info)
         val player = resources.getStringArray(R.array.game_online_player)
+        val year = resources.getStringArray(R.array.game_release_year)
 
         games.clear()
         for (i in id.indices) {
@@ -53,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                     info[i],
                     player[i],
                     developer[i],
-                    platform[i]
+                    year[i]
                 )
             )
         }
