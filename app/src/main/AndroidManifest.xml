@@ -8,12 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.GameTrend">
+        android:theme="@style/Theme.MyApplication"
+        android:fullBackupContent="@xml/backup_descriptor">
         <activity android:name=".view.activity.AboutActivity"/>
         <activity android:name=".view.activity.DetailActivity" />
-        <activity android:name=".view.activity.MainActivity" />
-        <activity android:name=".view.activity.SplashActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".view.activity.MainActivity"
+            android:parentActivityName="rpl1pnp.fikri.gametrend.view.activity.MainActivity"/>
+        <activity android:name=".view.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
