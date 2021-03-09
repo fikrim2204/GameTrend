@@ -5,3 +5,5 @@ Submission Create Beginner App Android (Membuat Aplikasi Android Pemula)
 - Show list game trend (Offline)
 - Show Profile Dicoding
 - Splash Screen
+
+### Licence
