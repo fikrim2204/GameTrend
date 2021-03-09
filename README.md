@@ -1,7 +1,7 @@
 # GameTrend
 Submission Create Beginner App Android (Membuat Aplikasi Android Pemula)
 
-## Fitures
+## Features
 - Show list game trend (Offline)
 - Show Profile Dicoding
 - Splash Screen
